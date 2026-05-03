@@ -1,0 +1,14 @@
+models:
+- name: dim_customers
+  description: This model provides a detailed view of customer orders, including order
+    details and associated customer information. It is used to analyze customer purchasing
+    behavior and order trends.
+  columns:
+  - name: order_id
+    description: A unique identifier for each order.
+  - name: customer_id
+    description: A unique identifier for each customer.
+  - name: order_date
+    description: The date when the order was placed.
+  - name: amount
+    description: The total amount for the order.
